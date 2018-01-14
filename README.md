@@ -6,7 +6,7 @@ kemudia buka `localhost:4200`
 <img src="https://i.imgur.com/KxmEQtJ.png"/>
 
 # Gambar ketika Login Berhasil
-<img src="https://i.imgur.com/KxmEQtJ.png"/>
+<img src="https://i.imgur.com/EgWrq6M.png"/>
 
 # Backend Menggunkan Java
 Linknya ada disini --> `https://github.com/dickanirwansyah/spring-boot-integrated-angular-jwt-backed`

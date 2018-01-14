@@ -3,4 +3,4 @@ cara menjalankan aplikasi ini `ng serve`
 kemudia buka `localhost:4200`
 <br/>
 # Gambar Dari Halaman Login
-<img="https://i.imgur.com/KxmEQtJ.png"/>
+<img src="https://i.imgur.com/KxmEQtJ.png"/>

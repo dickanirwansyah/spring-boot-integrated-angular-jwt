@@ -1,0 +1,30 @@
+<nav class="navbar navbar-default">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li routerLinkActive="active">
+        <a class="navbar-brand" routerLink="/home">Home</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="/user">Users</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="/admin">Admin</a>
+      </li>
+    </ul>
+
+    <!--nanti kita isi-->
+    <ul class="nav navbar-nav navbar-right">
+      <p class="navbar-text" *ngIf="isAdminUser">You Are Admin !</p>
+      <p class="navbar-text" *ngIf="isUser">You Are User !</p>
+      <li><button class="btn navbar-btn" (click)="logout()">
+        Logout
+      </button>
+    </li>
+    </ul>
+
+  </div>
+</nav>
+<!--data dari routerLink ditampilkan disini-->
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
